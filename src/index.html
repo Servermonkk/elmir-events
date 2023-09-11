@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elmir Events</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script type="module" src="/src/main.js"></script>
+</head>
+
+<body class="text-white bg-black">
+    <main-header></main-header>
+    <main>
+        <section>
+            <div class="bg-[url('/images/shutterstock_512157103.jpg')] bg-cover bg-blend-multiply h-fit">
+                <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 py-10">
+                    <div class="flex flex-row w-full max-w-7xl">
+                        <div class="basis-[60%] flex flex-col gap-4 pr-8 justify-center">
+                            <span class="text-base">Searching for an Event Agency?</span>
+                            <h1 class="font-semibold text-6xl">Découvrez Notre Univers Festif!</h1>
+                            <p class="text-lg">Chez Elmir Events nous vous proposons une large gamme de solutions logistiques, techniques et artistiques afin de vous libérer des contraintes d’organisation et vous permettre de vivre un moment exceptionnel tout en donnant un univers féerique et unique à vos festivités.</p>
+                            <div class="flex flex-row">
+                                <button class="w-fit rounded px-5 py-3.5 bg-[#ea580c]">Contact us</button>
+                            </div>
+                        </div>
+                        <div class="flex flex-col bg-[#212121] py-10 px-10 rounded-xl gap-3 w-full shadow-black shadow-2xl basis-[40%]">
+                            <h2 class="text-3xl font-semibold mb-8">You are ready to discuss on event?</h2>
+                            <form class="flex text-black flex-col gap-4">
+                                <input class="py-3 px-3 h-12 rounded" placeholder="Your Name" type="name"/>
+                                <div class="flex flex-row gap-0">
+                                    <span class="flex flex-col justify-center items-center w-fit px-3 py-3 h-12 rounded-l bg-gray-300"><img class="h-6 rounded" src="/images/Flag_of_Morocco.svg" /></span>
+                                    <input class="py-3 px-3 h-12 rounded-r w-full" placeholder="Your Phone Number" type="text"/>
+                                </div>
+                                <input class="py-3 px-3 h-12 rounded" placeholder="Your Email" type="email"/>
+                                <select class="py-3 px-3 h-12 rounded" name="Event type" id="event-type">
+                                    <option value="none" selected disabled hidden>Select an Option</option>
+                                    <option value="Demande en mariage">Demande en mariage</option>
+                                    <option value="Picnic">Picnic</option>
+                                    <option value="Inauguration">Inauguration</option>
+                                    <option value="Anniversaire">Anniversaire</option>
+                                    <option value="Fiançailles">Fiançailles</option>
+                                </select>
+                                <textarea class="py-3 px-3 h-32 rounded" placeholder="Your message here..." name="" id="" cols="30" rows="10"></textarea>
+                                <button class="flex flex-row gap-3 items-center justify-center text-white px-3 h-14 rounded bg-orange-500" type="submit">Send<img class="h-6" src="/images/Icons/arrow-right.svg"/></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="flex justify-center py-14 ">
+                <div class="flex flex-row justify-center w-full max-w-7xl gap-x-[4%] gap-y-12 flex-wrap">
+                    <event-card class="flex flex-col justify-start px-3 py-3 gap-4 basis-[48%]"
+                        icon="/images/event-types/couple-mariage-amour-silhouette_637377-284.svg"
+                        title="Demande en mariage"
+                        description="Votre mariage est un chapitre d'amour uniques dans votre histoire. Elmir Events se consacre à donner vie à vos rêves les plus précieux en les transformant en réalité. Du choix minutieux des fleurs, des couleurs et de la décoration, à la coordination fluide de chaque instant magique, nous créons une demande de mariage qui reflète votre style et votre connexion. Des décors somptueux inspirés de vos goûts personnels aux arrangements floraux élégants, nous tissons chaque élément et nous mettons en scène chaque détail avec soin pour créer une demande qui raconte votre histoire d'amour de manière captivante.
+                        Un événement parfait ne s’improvise pas! et nous vous souhaitons le meilleur pour cette nouvelle page de votre vie à deux!"
+                        data-char-limit="300"
+                        data-whatsapp-link="https://wa.me/212667449851"
+                        data-slider-images="['https://images.unsplash.com/photo-1496440543089-3d0eb669f6f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=788&q=80',
+                        'https://images.unsplash.com/photo-1619961310056-1f5c8df685d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+                        'https://images.unsplash.com/photo-1503001831666-8f3cf3a24544?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80',
+                        'https://images.unsplash.com/photo-1526306063970-d5498ad00f1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+                        'https://images.unsplash.com/photo-1552694477-2a18dd7d4de0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80']"
+                        >
+                    </event-card>
+                    <event-card class="flex flex-col justify-start px-3 py-3 gap-4 basis-[48%]"
+                        icon="/images/Icons/image-placeholder.svg"
+                        title="Picnic"
+                        description="Découvrez une nouvelle manière de profiter de la nature et de la compagnie de vos proches avec les services de pique-nique personnalisés d'Elmir Events. Que ce soit au cœur d'un parc pittoresque, sur une plage ensoleillée ou dans un jardin, nous créons des pique-niques sur mesure pour vous offrir une expérience de détente en plein air. Des nappes soigneusement disposées aux paniers gourmands remplis de mets délicieux, chaque détail est conçu pour que vous puissiez vous détendre et vous régaler en toute tranquillité. Confiez à Elmir Events la planification de votre pique-nique parfait, et laissez-nous créer des souvenirs joyeux dans un cadre enchanteur.
+                        Quoiqu’il en soit, ce picnic sera réussie! alors mangeons, buvons et répondant la joie!!"
+                        data-char-limit="300"
+                        data-whatsapp-link="https://wa.me/212667449851" >
+                    </event-card>
+                    <event-card class="flex flex-col justify-start px-3 py-3 gap-4 basis-[48%]"
+                        icon="/images/Icons/image-placeholder.svg"
+                        title="Inauguration"
+                        description="Vous souhaitez réussir le lancement de votre produit Elmir Events relèvera ce défi d’inauguration avec succès. Au cours de ce moment immersif, des œuvres musicales, des numéros spéciaux et plus encore, votre lancement sera exceptionnel pour vous ainsi que pour vos clients.
+                        La planification et l’organisation d’un événement majeur constituent toujours un défi c’est pour cela que nous vous accompagnons au lancement de votre magasin de A à Z en mettant l’accent sur le détail, l’esthétique et la perfection.
+                        « C’est parce qu’il est éphémère qu’un événement doit être unique. » – Loïc Macqueron"
+                        data-char-limit="300"
+                        data-whatsapp-link="https://wa.me/212667449851" >
+                    </event-card>
+                    <event-card class="flex flex-col justify-start px-3 py-3 gap-4 basis-[48%]"
+                        icon="/images/Icons/image-placeholder.svg"
+                        title="Anniversaire"
+                        description="Parce qu’il n’y a pas d’âges pour fêter un anniversaire, Elmir Events vous propose diverses solutions afin d’organiser un évènement qui sort de l’ordinaire pour épater vos amis. 
+                        Rien de plus simple, il vous suffit de déterminer ces premiers éléments: La date de l’anniversaire (pour que le jour J soit inoubliable),
+                        Le lieu (chez vous ou à l’extérieur, n’hésiter pas à nous demander on peut vous proposer divers choix),
+                        Le nombre de personnes (pour que tout soit organiser à la perfection),
+                        Le thème (La décoration sera personnalisée en fonction du thème choisi),
+                        Plusieurs forfaits anniversaire vous sont proposés pour une fête personnalisée au plus près de vos attentes.
+                        Et nous n’avons pas oublié 😉 Joyeux anniversaire!"
+                        data-char-limit="300"
+                        data-whatsapp-link="https://wa.me/212667449851" >
+                    </event-card>
+                    <event-card class="flex flex-col justify-start px-3 py-3 gap-4 basis-[48%]"
+                        icon="/images/Icons/image-placeholder.svg"
+                        title="Fiançailles"
+                        description="Les fiançailles marquent le commencement d'une promesse d'amour éternel, et Elmir Events s'engage à organiser une célébration intime qui reflète cette promesse. Nous accordons une attention méticuleuse à chaque détail, en créant un événement qui capture l'essence de votre relation. Du choix du lieu romantique à la sélection de plats raffinés, nous travaillons en harmonie avec vos souhaits pour créer une soirée de fiançailles empreinte de tendresse et de joie et qui marque le début de votre nouvelle aventure avec style et élégance.
+                        Que votre engagement soit le début d'une vie remplie d'amour intense et de bonheur. Félicitations à vous pour vos fiançailles !"
+                        data-char-limit="300"
+                        data-whatsapp-link="https://wa.me/212667449851" >
+                    </event-card>
+                    <event-card class="flex flex-col justify-start px-3 py-3 gap-4 basis-[48%]"
+                        icon="/images/Icons/image-placeholder.svg"
+                        title="Baby Shower"
+                        description="La naissance imminente d'un petit trésor mérite une célébration douce et chaleureuse, et c'est là qu'Elmir Event entre en jeu. Nous mettons en scène des décors charmants et délicats, incorporant des éléments personnalisés qui racontent votre histoire. Des jeux interactifs qui suscitent le sourire aux friandises irrésistibles qui régalent les invités, nous veillons à ce que chaque moment de votre baby shower soit empreint de joie et d'émotion.
+                        Maintenant, vous pouvez oublier vos prénoms, vous serez juste Maman et Pap	 ! alors fêtons ce moment magique!"
+                        data-char-limit="300"
+                        data-whatsapp-link="https://wa.me/212667449851" >
+                    </event-card>
+
+                </div> 
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-center py-14">
+                <div class="flex flex-row justify-center w-full max-w-7xl gap-[4%]">
+                    <div class="flex flex-col gap-6 justify-center items-center py-10 rounded-xl bg-[#212121] basis-[48%]">
+                        <img class="h-14" src="/images/Icons/phone.svg"/>
+                        <a class="text-3xl font-medium" href="tel:+212667449851">+212 667 449 851</a>
+                        <img class="h-8 mt-2" src="/images/Icons/arrow-right.svg"/>
+                    </div>
+                    <div class="flex flex-col gap-6 justify-center items-center py-10 rounded-xl bg-[#212121] basis-[48%]">
+                        <img class="h-14" src="/images/Icons/mail-envoloppe.svg"/>
+                        <a class="text-3xl font-medium" href="tel:+212667449851">contact@elmirevents.com</a>
+                        <img class="h-8 mt-2" src="/images/Icons/arrow-right.svg"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-center py-14">
+                <div class="flex flex-col gap-3 justify-center items-center">
+                    <h2 class="text-3xl font-semibold mb-8">Nos References</h2>
+                    <div class="brand-slider overflow-hidden flex flex-row justify-center w-full max-w-7xl">
+                        <div class="brand-carousel flex gap-8 transition-transform duration-300 ease-in-out relative">
+                                <img class="h-20" src="/images/partners/belo.svg"/>
+                                <img class="h-20" src="/images/partners/comfy.svg"/>
+                                <img class="h-20" src="/images/partners/goprint.svg"/>
+                                <img class="h-20" src="/images/partners/lepanier-magic.svg"/>
+                                <img class="h-20" src="/images/partners/pcstoon.svg"/>
+                                <img class="h-20" src="/images/partners/goprint.svg"/>
+                                <img class="h-20" src="/images/partners/comfy.svg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-center">
+                <div class="flex flex-row justify-center w-full max-w-7xl">
+            <h1>Why use an event agency in Morocco?</h1>
+            </p> 
+            ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium, qui iste sit vitae inventore doloribus nesciunt voluptate quas earum veritatis, vero voluptatem, ipsum eius mollitia quaerat accusantium fugiat obcaecati.
+                </div>
+                </div>
+            
+                
+        </section>
+        <section>
+            <div class="flex justify-center py-14">
+                <div class="flex flex-row justify-center w-full max-w-7xl">
+                    <div class="flex flex-col bg-[#212121] py-10 px-10 rounded-xl gap-3 w-full basis-[40%]">
+                       
+                    </div>
+                    <div class="flex flex-col gap-3 basis-[60%]"></div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <main-footer></main-footer>
+    
+</body>
+</html>
